@@ -52,5 +52,6 @@ dependencies {
    //live data
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
 
-
+    // LeakCanary should only run in debug builds.Check memory leaks
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.8.1'
 }
